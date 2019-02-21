@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package padfed.pb;
+
+option go_package = "padfedcc/pb";
+
+message Impuesto {
+    uint64 id = 1;
+    string org = 2;
+    string codigo = 3;
+    string nombre = 4;
+}
